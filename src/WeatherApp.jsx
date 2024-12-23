@@ -39,7 +39,7 @@ function WeatherApp() {
            <h3>{weather.name}</h3>
            <h3>{kelvinToCelsius(weather.main.temp)} °C</h3>
            <h3>{weather.main.temp} kel</h3>
-           <p>{weather.weather[0].description}</p>
+           <p>{weather.weather[0].description} </p>
         </div>
        }
     </div>
